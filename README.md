@@ -23,9 +23,9 @@
     *   `wxwork_capture_qrcode/`: 捕获屏幕上的二维码。
     *   `wxwork_monitor_qrcode/`: 监控二维码状态变化（如：是否被扫描、是否过期）。
     *   `wxwork_scan_qrcode/`: 模拟扫描二维码操作。
-*   `wxwork-group-control/`: 专注于群组管理的分析和工具。
-    *   `wxwork_tools/`: 用于辅助分析的工具，dump_duilib_xml和dump_wxwork_log。
-    *   `wxwork_help/`: 企业微信辅助功能，可能包含一些核心的逆向分析成果。
+    `wxwork_tools/`: rust版本的用于辅助分析的工具，dump_duilib_xml和dump_wxwork_log。
+    `wxwork_tools_cpp/`: c++版本的用于辅助分析的工具，dump_duilib_xml和dump_wxwork_log。
+    `wxwork_help/`: 企业微信辅助功能，可能包含一些核心的逆向分析成果。
 
 
 ## 免责声明

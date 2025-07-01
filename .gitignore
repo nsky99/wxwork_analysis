@@ -33,3 +33,7 @@ go.work.sum
 
 # rust target
 **/target/
+
+# visual studio 2022
+.vs
+Release
