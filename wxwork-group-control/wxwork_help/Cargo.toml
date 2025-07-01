@@ -1,0 +1,10 @@
+[package]
+name = "wxwork_help"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["dylib"]
+
+[dependencies]
+winapi = { version = "0.3.9", features = ["debugapi", "handleapi", "heapapi", "libloaderapi", "memoryapi", "minwindef", "processthreadsapi", "psapi", "synchapi", "winnt", "winuser"] }
